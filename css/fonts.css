@@ -1,0 +1,70 @@
+/* font-family: "Bebas"; */
+@font-face {
+	font-family: "Bebas";
+	src: url("../fonts/bebas.eot");
+	src: url("../fonts/bebas.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/bebas.woff") format("woff"),
+	url("../fonts/bebas.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "CenturyGothic"; */
+@font-face {
+	font-family: "CenturyGothic";
+	src: url("../fonts/CenturyGothic.eot");
+	src: url("../fonts/CenturyGothic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/CenturyGothic.woff") format("woff"),
+	url("../fonts/CenturyGothic.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Ciclefina"; */
+@font-face {
+	font-family: "Ciclefina";
+	src: url("../fonts/ciclefina.eot");
+	src: url("../fonts/ciclefina.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ciclefina.woff") format("woff"),
+	url("../fonts/ciclefina.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Colabreg"; */
+@font-face {
+	font-family: "Colabreg";
+	src: url("../fonts/colabreg.eot");
+	src: url("../fonts/colabreg.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/colabreg.woff") format("woff"),
+	url("../fonts/colabreg.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "Sourcesanspro"; */
+@font-face {
+	font-family: "Sourcesanspro";
+	src: url("../fonts/sourcesanspro-light.eot");
+	src: url("../fonts/sourcesanspro-light.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/sourcesanspro-light.woff") format("woff"),
+	url("../fonts/sourcesanspro-light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "SourcesansproBold"; */
+@font-face {
+	font-family: "SourcesansproBold";
+	src: url("../fonts/sourcesanspro-bold.eot");
+	src: url("../fonts/sourcesanspro-bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/sourcesanspro-bold.woff") format("woff"),
+	url("../fonts/sourcesanspro-bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/* font-family: "HelveticaLT"; */
+@font-face {
+	font-family: "HelveticaLT";
+	src: url("../fonts/HelveticaLT-ExtraCompressed.eot");
+	src: url("../fonts/HelveticaLT-ExtraCompressed.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/HelveticaLT-ExtraCompressed.woff") format("woff"),
+	url("../fonts/HelveticaLT-ExtraCompressed.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

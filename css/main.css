@@ -1,0 +1,443 @@
+
+body {
+    font-family: "Ciclefina", sans-serif;
+    font-size: 16px;
+    min-width: 320px;
+    max-width: 100%;
+    position: relative;
+    background-image: url(../img/bg-pattern.png);
+    color: #000;
+    overflow-x: hidden;
+}
+
+header {
+    height: 96px;
+    position: relative;
+}
+
+
+/* Header*/
+
+nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    z-index: 9999;
+}
+.menu{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 20px 15px;
+    position: relative;
+}
+.menu li a {
+    font-family: "Ciclefina";
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+.menu li a:hover, .menu li a:focus{
+	text-decoration: none;
+	color: #faa61a;
+}
+.logo {
+    padding: 10px;
+}
+.logo img {
+    height:  30px;
+}
+.presentate {
+    padding: 0 20px 40px;
+    background-color: #faa61a;
+}
+
+.main-title {
+    text-align: center;
+    font-family: "HelveticaLT";
+    font-size: 138px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: -1.5px;
+}
+
+.video-wrapp img {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    margin-right: 0;
+}
+
+.mini-wrap {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+img.miniature {
+    width: 100px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.img-text {
+    background: black;
+    font-size: 32px;
+    color: white;
+    padding: 5px 15px;
+    position: absolute;
+    top: 20px;
+    left: -20px;
+}
+
+a:hover,
+a:focus {
+    color: #faa61a;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.video-container {
+    display: flex;
+}
+.video-descr {
+    background: black;
+    color: white;
+    padding: 20px;
+    margin-left: 0;
+    height: 400px;
+}
+
+.video-descr p {
+    padding:  0 5px;
+}
+.video-title {
+    font-family: "Bebas";
+    padding: 5px;
+    line-height: 18px;
+    background-color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    color: black;
+}
+
+.video-text.info {
+    font-family: "Colabreg";
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.descr-container {
+    background-color: #fff;
+    float: left;
+    height: 100%;
+}
+.descr-container img{
+    width: 100%;
+}
+
+
+.descr-title {
+    padding: 5px;
+    font-family: "Bebas";
+    padding-top: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.descr-text {
+    font-family: "Colabreg";
+    line-height: 21px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+ .button-wrapp {
+    text-align: right;
+}
+.btn-read {
+    font-family: "Colabreg";
+    line-height: 22px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 0 25px 0 5px;
+    margin: 0 10px 10px 0;
+}
+.btn-read:hover,
+.btn-read:focus{
+    background: #faa61a;
+    color: black;
+}
+
+.btn-read:before, article .services li:before, header .menu li:before  {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 15px;
+    background-color: #faa61a;
+    background-image: url(../img/main-sprite.png);
+    background-repeat: no-repeat;
+    background-position: -5px -75px;
+    height: 22px;
+    top: 0;
+    right: 0;
+    background-position: -5px -72px;
+}
+
+article .services li:before {
+    top: 2px;
+    left: 0;
+}
+
+header .menu li:before {
+    background-color: white;
+    background-position: -5px 7px;
+    top: 22px;
+    left: -5px;
+}
+.section-title {
+    font-family: "Bebas";
+    padding-top: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px ;
+}
+
+.section-title>span {
+    color: #faa61a;
+}
+
+article .services li {
+    padding-left: 35px;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+article {
+    padding: 20px;
+    min-height: 368px;
+}
+
+article ul a {
+    color: #000;
+    text-decoration: none;
+}
+
+article .info {
+    line-height: 24px;
+}
+
+.contacts li {
+	background-color: transparent;
+	padding-left: 45px;
+	position: relative;
+	margin-bottom: 14px;
+	line-height: 30px;
+}
+
+.contacts li>span {
+	background-color: #000;
+	color: #fff;
+	font-size: 16px;
+	padding: 0 15px 0 3px;
+}
+
+.contacts li:before {
+	content: " ";
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 30px;
+	height: 30px;	
+	background-color: transparent;
+	background-image: url(../img/main-sprite.png);
+	background-repeat: no-repeat;
+}
+
+.contacts li.phone>span,
+.contacts li.fax>span { 
+	font-family: "Bebas"; 
+	padding-top: 5px;
+}
+
+.contacts li.email span { padding-right: 50px; }
+
+.contacts li.phone:before { background-position: 0 -156px; }
+.contacts li.fax:before { background-position: 0 -259px; }
+.contacts li.email:before { background-position: 0 -356px; }
+.contacts li.addr:before { background-position: 0 -471px; }
+
+.main-nav ul li a {
+    font-family: "Ciclefina";
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    padding-left: 14px;
+    letter-spacing: 1.8px;
+}
+
+footer  img {
+    height: 100%;
+}
+
+.partner-wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.line {
+    border-bottom: 1px solid gray;
+    padding: 3px 0;
+}
+
+.reserves {
+    padding: 5px 0;
+}
+
+.p0 {
+    margin: 0;
+    padding: 0;
+}
+
+.h100 {
+    height: 100%;
+}
+footer .menu li {
+    padding: 0 10px;
+}
+
+footer .logo {
+    padding: 0;
+}
+
+.Infa {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+}
+
+.Infa article {
+    position: relative;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.Infa article.sec-info {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+ article.content-text:after, article.content-text:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    background-image: url(../img/main-sprite.png);
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+
+.Infa article:after {
+	background-position: 0 -670px;
+	bottom: -22px;
+    right: -8px;
+}
+
+.Infa article:before {
+	background-position: 0 -577px;
+	top: -21px;
+	right: -8px;
+}
+
+.flex {
+    display: flex;
+}
+
+
+.line-top {
+    border-bottom: 1px solid gray;
+}
+footer {
+    position: relative;
+}
+
+.navbar-header {
+    overflow: hidden;
+}
+#menu-footer {
+    width: 100%;
+    text-align: right;
+}
+
+.formright {
+    text-align: right;
+    margin: 0 15px;
+}
+
+.formright form {
+    background: #faa61a;
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+.formright input {
+    border: none;
+    font-size: 16px;
+    padding: 3px 5px;
+    width: 280px;
+}
+
+.formright input:focus,
+.formright button:focus {
+    outline: #faa61a;
+}
+.formright button {
+    font-family: "Bebas";
+    font-size: 16px;
+    line-height: 18px;
+    padding: 3px 5px 0;
+    background-color: #faa61a;
+    border: none;
+    text-transform: uppercase;
+}
+.formright button + button {
+    border-left: 1px solid white;
+}
+
+.turn:hover {
+    -moz-transform: rotate(360deg); /* Для Firefox */
+    -ms-transform: rotate(360deg); /* Для IE */
+    -webkit-transform: rotate(360deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(360deg); /* Для Opera */
+    transform: rotate(360deg);
+    transition: all 2s;
+    overflow-y:hidden; 
+   }
+
+   .linebold{
+    height: 2px;
+    background: black;
+    display: block;
+    width: 100%;
+    margin-top:-40px;
+   }
+   
+   header>nav{
+    position: fixed;
+    z-index: 1;
+    background:url(../img/1222.png);;
+   }

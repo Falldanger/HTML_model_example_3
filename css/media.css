@@ -1,0 +1,319 @@
+/*Very large displays*/
+@media only screen and (max-width : 1440px) {
+
+    img.miniature:hover {
+        width: 56px;
+        height: 35px;
+        transition: 1s;
+        }
+        .linebold{
+            display: none;
+        }
+
+
+/*Large screen*/
+
+@media only screen and (max-width : 1200px) {
+    .main-title {
+        font-size: 114px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+
+    img.miniature:hover {
+        width: 55px;
+        height: 30px;
+        transition: 1s;
+        }
+    .video-title {
+        line-height: 16px;
+    }
+    .descr-text {
+        line-height: 20px;
+    }
+    .descr-title {
+        font-size: 19px;
+    }
+     .linebold{
+            display: none;
+        }
+    
+    /*Big screen*/
+}
+@media only screen and (max-width : 992px) {
+
+    .menu {
+        overflow: hidden;
+    }
+
+    .menu li {
+        padding: 20px 12px;
+    }
+
+    .main-title {
+        font-size: 88px;
+    }
+
+    .menu li.content-text:before,
+    .Infa article.content-text:before,
+    .Infa article.content-text:after {
+        content: none;
+    }
+    .Infa article.sec-info {
+        border: none;
+    } 
+
+    img.miniature{
+        width: 90px;
+        height: 35px;
+        margin: 0 5px;
+        padding: 0;
+    }
+
+    img.miniature:hover {
+        width: 40px;
+        height: 25px;
+        transition: 1s;
+        }
+
+    .logo img {
+        height: 24px;
+    }
+     .linebold{
+            display: none;
+        }
+}
+
+
+/*Medium screen*/
+
+@media only screen and (max-width : 768px) {
+    .menu li {
+        padding: 20px 5px;
+    }
+    .img-text {
+        left: 0;
+    }
+    .formright {
+        margin: 0 5px;
+    }
+     .linebold{
+            display: none;
+        }
+        article {
+    padding: 20px;
+    min-height: 200px;
+}
+}
+
+
+/*Bags fix*/
+
+@media only screen and (max-width : 767px) {
+    header {
+        height: 60px;
+    }
+    .formright {
+        display: none;
+    }
+    .partner-wrapp {
+        overflow: auto;
+    }
+    footer nav {
+        display: none;
+    }
+    nav {
+	    z-index: 999;
+        background-color: white;
+    }
+    .partner-wrapp {
+        height: 320px;
+        display: block;
+    }
+    .partner-wrapp img {display: block;
+    margin: 0 auto;}
+    .video-wrapp img {
+        display: block;
+    }
+    .menu_btn {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #faa61a;
+        color:white;
+        line-height: 50px;
+        text-align: center;
+    }
+
+    .p0 {
+        width: 100%;;
+    }
+    .video-container .p0 + .p0 {
+        display: none;
+    }
+    .container {
+        overflow-x: hidden;
+    }
+    .main-title {
+        font-size: 72px;
+    }
+    .menu_btn span{
+        top: -15px;
+    }
+	.video-wrapp {
+		position: relative;
+	}
+    .section-title {
+        text-align: center;
+    }
+
+    .partner-wrapp>img{
+        width: 60px;
+        height: 45px;
+    }
+    img.miniature{
+        width: 80px;
+        height: 30px;
+        margin: 0 5px;
+        padding: 0;
+    }
+
+    img.miniature:hover {
+        width: 40px;
+        height: 25px;
+        transition: 1s;
+        }
+	
+    article .services li,
+    .contacts li {
+    width: 220px;
+    margin: 10px auto;
+    }
+	.menu li{
+        display: block;
+        text-align: center;
+        padding: 5px 0;
+        background: white;
+    }
+    .menu li a{
+        display: block;
+    }
+    footer .menu li {
+    padding: 5px 0;
+}
+    .Infa {
+        text-align: center;
+    }
+    footer .menu_btn {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+    }
+     .linebold{
+            display: none;
+        }
+
+        article {
+    padding: 20px;
+    min-height: 200px;
+}
+.video-wrapp>img{
+    width: 100%;
+    height: 350px;  
+}
+   
+}
+
+
+
+@media only screen and (max-width : 478px) {
+	nav{
+		height: 60px;
+
+		background-color: white;
+	}
+
+	.logo{
+		position: absolute;
+        left: 15px;
+        z-index: -1;
+	}
+    .logo img {
+        height: 30px;
+    }
+	.menu_btn{
+		margin-right: 20px;
+	}
+	.menu_btn span{
+		top: -15px;
+	}
+    .menu li{
+		display: block;
+		text-align: center;
+	}
+	.menu li a{
+		display: block;
+	}
+	.menu li a:hover{
+		background-color: #fff;
+		color: #000;
+	}
+	.container { padding: 0; }
+	.main-title { 
+        font-size: 54px;
+    }
+
+     .partner-wrapp>img{
+        width: 50px;
+        height: 38px;
+    }
+
+	section.Infa .sec-services, 
+	section.Infa .sec-contacts,
+	header a.logo {
+     width: 100%;
+    }
+       .linebold{
+    height: 2px;
+    background: black;
+    display: block;
+    width: 100%;
+    margin-top:-40px;
+   }
+    
+}
+
+@media only screen and (max-width : 320px) {
+	.logo{
+		padding-top: 15px;
+	}
+	.menu_btn{
+		width: 40px;
+		height: 40px;
+		border-radius:50%;
+		background-color: #faa61a;
+		color: #fff; 
+	}
+	#top_menu{
+		padding: 20px 0;
+	}
+	.menu li{
+		display: block;
+		text-align: center;
+	}
+	.menu li a{
+		display: block;
+	}
+	.menu li a:hover{
+        background-color: white;
+		color: black;
+    }
+       .linebold{
+    height: 2px;
+    background: black;
+    display: block;
+    width: 100%;
+    margin-top:-40px;
+   }
+}
